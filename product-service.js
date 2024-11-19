@@ -19,3 +19,5 @@ router.get('/:id',(req, res) => {
         res.status(404).json({message: 'Product not found'});
     }
 });
+
+module.exports = router;
